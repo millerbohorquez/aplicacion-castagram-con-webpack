@@ -1,0 +1,24 @@
+{
+  "name": "aplicacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "author": "Miller Bohorquez",
+  "license": "(MIT)",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "html-webpack-plugin": "^5.6.0",
+    "svelte": "^4.2.18",
+    "svelte-loader": "^3.2.3",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
